@@ -1,12 +1,12 @@
 import styled from 'styled-components'
 
-export const FeatureContainter =styled.div`
-    height: 425px;
+export const DivisionContainter =styled.div`
+    height: 850px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #D35400;
+    background: #fff;
 
     @media screen and (max-width: 1000px) {
         height: 900px;
@@ -21,11 +21,11 @@ export const FeatureContainter =styled.div`
     }
 `
 
-export const FeatureWrapper = styled.div`
+export const DivisionWrapper = styled.div`
     max-width: 1000px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     grid-gap: 16px;
     padding 0 50px;
@@ -45,7 +45,7 @@ export const FeatureWrapper = styled.div`
     }
 `
 
-export const FeatureCard =  styled.div`
+export const DivisionCard =  styled.div`
     background: #fff;
     display: flex;
     flex-direction: column;
@@ -64,15 +64,15 @@ export const FeatureCard =  styled.div`
     }
 `
 
-export const FeatureIcon = styled.img`
-    height: 100px;
-    width: 100px;
+export const DivisionIcon = styled.img`
+    height: 150px;
+    width: 150px;
     margin-bottom: 10px;
 `
 
-export const FeatureH1 = styled.h1`
+export const DivisionH1 = styled.h1`
     font-size: 2.5rem;
-    color: #d11414;
+    color: #D35400;
     margin-bottom: 64px;
 
     @media screen and (max-width: 480px) {
@@ -80,12 +80,12 @@ export const FeatureH1 = styled.h1`
     }
 `
 
-export const FeatureH2 = styled.h2`
+export const DivisionH2 = styled.h2`
     font-size: 1rem;
     margin-bottom: 10px;
 `
 
-export const FeatureP1 = styled.p`
+export const DivisionP1 = styled.p`
     font-size: 1rem;
     text-align: center;
 `

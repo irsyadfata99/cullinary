@@ -7,7 +7,7 @@ import {
     HeroItems, 
     HeroH1, 
     HeroP, 
-    HeroBtn
+    // HeroBtn
 } from './HeroElement'
 
 const Hero = () => {
@@ -25,7 +25,7 @@ const toggle = () => {
                 <HeroItems>
                     <HeroH1>Healthy and Tasty Food</HeroH1>
                     <HeroP>Keep you full and healthy</HeroP>
-                    <HeroBtn>Order now</HeroBtn>
+                    {/* <HeroBtn>Order now</HeroBtn> */}
                 </HeroItems>
             </HeroContent>
         </HeroContainer>
