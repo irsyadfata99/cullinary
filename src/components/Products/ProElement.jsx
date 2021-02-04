@@ -42,10 +42,10 @@ export const ProductTitle = styled.h2`
 export const ProductInfo =  styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     padding: 2rem;
-    text-align: center;
+    text-align: left;
 `
 
 export const ProductDesc = styled.p`

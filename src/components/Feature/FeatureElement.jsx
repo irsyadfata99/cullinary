@@ -26,9 +26,9 @@ export const FeatureWrapper = styled.div`
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    align-items: center;
-    grid-gap: 16px;
-    padding 0 50px;
+    align-items: left;
+    grid-gap: 20px;
+    padding: 0 auto;
 
     @media screen and (max-width: 1000px) {
         grid-template-columns: 1fr 1fr 1fr;
@@ -46,7 +46,7 @@ export const FeatureWrapper = styled.div`
 `
 
 export const FeatureCard =  styled.div`
-    background: #fff;
+    background: transparent;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -54,7 +54,6 @@ export const FeatureCard =  styled.div`
     border-radius: 10px;
     max-height: 340px;
     padding: 30px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
 
     &:hover {
@@ -71,9 +70,9 @@ export const FeatureIcon = styled.img`
 `
 
 export const FeatureH1 = styled.h1`
-    font-size: 2.5rem;
-    color: #d11414;
-    margin-bottom: 64px;
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 13px;
 
     @media screen and (max-width: 480px) {
         font-size: 2rem;

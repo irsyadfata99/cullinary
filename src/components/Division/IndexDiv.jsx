@@ -19,32 +19,32 @@ const division = () => {
             <DivisionWrapper>
                 <DivisionCard>
                     <DivisionIcon src={Icon1} />
-                    <DivisionH2>Beegency</DivisionH2>
+                    <DivisionH2>Liberica Coffee</DivisionH2>
                     <DivisionP1>Division available right now</DivisionP1>
                 </DivisionCard>
                 <DivisionCard>
                     <DivisionIcon src={Icon2} />
-                    <DivisionH2>Storage Division</DivisionH2>
+                    <DivisionH2>YFC</DivisionH2>
                     <DivisionP1>Division available right now</DivisionP1>
                 </DivisionCard>
                 <DivisionCard>
                     <DivisionIcon src={Icon3} />
-                    <DivisionH2>Cullinary</DivisionH2>
+                    <DivisionH2>BOBA</DivisionH2>
                     <DivisionP1>Division available right now</DivisionP1>
                 </DivisionCard>
                 <DivisionCard>
                     <DivisionIcon src={Icon4} />
-                    <DivisionH2>Tour and Travel</DivisionH2>
+                    <DivisionH2>RiceBowl</DivisionH2>
                     <DivisionP1>Division available right now</DivisionP1>
                 </DivisionCard>
                 <DivisionCard>
                     <DivisionIcon src={Icon5} />
-                    <DivisionH2>Pnr</DivisionH2>
+                    <DivisionH2>Nugget</DivisionH2>
                     <DivisionP1>Division available right now</DivisionP1>
                 </DivisionCard>
                 <DivisionCard>
                     <DivisionIcon src={Icon5} />
-                    <DivisionH2>Property</DivisionH2>
+                    <DivisionH2>Donnut Potato</DivisionH2>
                     <DivisionP1>Division available right now</DivisionP1>
                 </DivisionCard>
             </DivisionWrapper>

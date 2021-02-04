@@ -5,8 +5,6 @@ import {
     CloseIcon, 
     SidebarMenu, 
     SidebarLink, 
-    SideBtnWrap, 
-    SidebarRoute
 } from './SideElement'
 
 const Sidebar = ({isOpen, toggle}) => {
@@ -20,9 +18,6 @@ const Sidebar = ({isOpen, toggle}) => {
             <SidebarLink to ="/">Tengkleng</SidebarLink>
             <SidebarLink to ="/">Full Menu</SidebarLink>
         </SidebarMenu>
-        <SideBtnWrap>
-            <SidebarRoute to="/">Order Now</SidebarRoute>
-        </SideBtnWrap>
         </SidebarContainer>
     )
 }
