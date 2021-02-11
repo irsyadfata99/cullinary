@@ -6,7 +6,7 @@ import Feature from '../components/Feature/IndexFeature'
 import Footer from '../components/Footer/IndexFooter'
 import Division from '../components/Division/IndexDiv'
 import Product from '../components/Products/IndexPro'
-import {productData} from '../components/Products/data'
+import {productData } from '../components/Products/data'
 
 const Home = () => {
     return (
@@ -15,7 +15,7 @@ const Home = () => {
             <Hero />
             <Feature />
             <Division />
-            <Product heading='Here our healthy recipes' data={productData}/>
+            <Product heading='Check out our lastest gallery' data={productData}/>
             <Footer />
         </Router>
     )

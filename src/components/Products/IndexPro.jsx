@@ -9,7 +9,7 @@ import {
     ProductTitle,
     ProductDesc,
     ProductPrice,
-    // ProductButton,
+    ProductButton,
 } from './ProElement'
 
 const Products = ({heading, data}) => {
@@ -25,15 +25,18 @@ const Products = ({heading, data}) => {
                                 <ProductTitle>{product.name}</ProductTitle>
                                 <ProductDesc>{product.desc}</ProductDesc>
                                 <ProductPrice>{product.price}</ProductPrice>
-                                {/* <ProductButton>{product.button}</ProductButton> */}
+                                <ProductButton>{product.button}</ProductButton>
                             </ProductInfo>
                         </ProductCard>
                     )
                 })}
             </ProductsWrapper>
+            {/* <ProductButton><a href="/AddToCart">Purchase the ingredients</a></ProductButton> */}
         </ProductsContainer>
 
     )
+
 }
+
 
 export default Products

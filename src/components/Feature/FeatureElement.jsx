@@ -9,11 +9,11 @@ export const FeatureContainter =styled.div`
     background: #D35400;
 
     @media screen and (max-width: 1000px) {
-        height: 900px;
+        height: 800px;
     }
 
     @media screen and (max-width: 768px) {
-        height: 1400px;
+        height: 800px;
     }
 
     @media screen and (max-width: 480px) {

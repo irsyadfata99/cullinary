@@ -10,25 +10,19 @@ export const productData = [
         img: geprek,
         alt: 'geprek',
         name: 'Ayam geprek',
-        desc: 'Nasi, Ayam dengan bumbu rahasia, lalapan dan sambal dadakan yang pedas',
-        price: 'Rp. 17.000',
-        button: 'Add to cart'
+        button: 'Purchase'
     },
     {
         img: mie,
         alt: 'mie',
         name: 'Mie geprek',
-        desc: 'Mie, Ayam dengan bumbu rahasia, lalapan dan sambal dadakan yang pedas',
-        price: 'Rp. 17.000',
-        button: 'Add to cart'
+        button: 'Purchase'
     },
     {
         img: rempah,
         alt: 'rempah',
         name: 'Nasi rempah geprek',
-        desc: 'Nasi Rempah, Ayam dengan bumbu rahasia, lalapan dan sambal dadakan yang pedas',
-        price: 'Rp. 17.000',
-        button: 'Add to cart'
+        button: 'Purchase'
     },
 
 ]
@@ -39,24 +33,21 @@ export const productDataTwo = [
         alt: 'tengkleng',
         name: 'Tengkleng Kambing',
         desc: 'Tengkleng',
-        price: 'Rp. 17.000',
-        button: 'Add to cart'
+        button: 'Purchase'
     },
     {
         img: tengkleng1,
         alt: 'Tengkleng Gajah',
         name: 'Tengkleng Gajah',
         desc: 'Tengkleng',
-        price: 'Rp. 17.000',
-        button: 'Add to cart'
+        button: 'Purchase'
     },
     {
         img: tengkleng2,
         alt: 'Tengkleng Sapi',
         name: 'Tengkleng Sapi',
         desc: 'Tengkleng',
-        price: 'Rp. 17.000',
-        button: 'Add to cart'
+        button: 'Purchase'
     },
 
 ]

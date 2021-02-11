@@ -6,6 +6,7 @@ export const ProductsContainer = styled.div`
     padding: 5rem calc((100vw - 1300px) /2);
     background: #150f0f;
     color: #D35400;
+
 `
 
 export const ProductsWrapper = styled.div`
@@ -58,17 +59,24 @@ export const ProductPrice = styled.p`
 `
 
 export const ProductButton = styled.button`
-    font-size: 1rem;
-    padding: 1rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background: #d35400;
+    padding: 10px 22px;
+    color: #010606;
+    font-size: 16px;
+    outline: none;
     border: none;
-    background: #e31837;
-    color: #fff;
-    transition: 0.2 ease-out;
+    cursor: pointer;
+    transition: all 0.2 ease-in-out;
+    text-decoration: none;
+    width: 222px;
 
     &:hover {
-        background: #ffc500;
-        transition: 0.2s ease-out;
-        cursor: pointer;
-        color: #000;
+        transition: all 0.2s ease-in-out;
+        background: #ffffff;
+        color: #010606;
     }
 `
